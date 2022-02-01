@@ -1,0 +1,76 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    box-sizing: border-box;
+    margin: 0;
+    height: 100vh;
+    background-color: #1d3557;
+}
+/* 2584DC
+717171 */
+#form{width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#search{
+    background-color: #717171;
+    padding: 1rem;
+    color: white;
+    border-radius: 5px;
+    width: 70%;
+    border: none;
+    font-size: 1rem;
+    margin-bottom: .5rem;
+    box-shadow: 0rem 0rem 1rem   #717171;
+}
+
+#search::placeholder{
+    color: white;
+}
+#card{
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 1rem;
+    width: 70%;
+    background-color: #2584DC;
+    box-shadow: 0rem 0rem 1rem   #2584DC;
+}
+#card .card_content{
+    display: flex;
+    flex-direction: row;
+}
+#card .card_content .image{
+    display: flex;
+    align-items: center;
+}
+#card .card_content .image img{
+    width: 100px;
+    height: 120px;
+    border-radius: 50%;
+    padding: 1rem;
+}
+.flex_row{
+    display: flex;
+    flex-direction: row;
+}
+ul{
+    list-style: none;
+}
+#card .card_content .profile_info ul{
+    padding: 0;
+}
+#card .card_content .profile_info ul li{
+    margin: 0;
+    padding: .5rem;
+}
+#card .card_content .profile_info #repos div{
+    padding: .3rem;
+    border-radius: 10%;
+    margin-right: 1rem  ;
+    background-color: #717171 ;
+    color: rgb(255, 235, 235);
+}
